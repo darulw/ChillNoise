@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityNoises"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="end">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_bar"
+        app:headerLayout="@layout/header"
+        android:background="@drawable/ic_background"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/main_menu"
+        android:layout_gravity="start"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00020000"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_action_name"
+        app:titleTextColor="@color/white"
+        app:title=" ">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/righteousregular"
+            android:text="Chill Noise"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/liniowy2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_weight="2">
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:thumb="@drawable/thumb"
+            android:progressDrawable="@drawable/custom_progress"
+            android:progress="100"/>
+    </LinearLayout>
+
+</LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

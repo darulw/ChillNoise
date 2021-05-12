@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ChillNoise</string>
+    <string name="nav_drawer_open">Open</string>
+    <string name="nav_drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="author1">Icon by <a href="https://freeicons.io/profile/722">fasil</a> on <a href="https://freeicons.io">freeicons.io</a></string>
+    <string name="author2">Icon by <a href="https://freeicons.io/profile/714">mithun</a> on <a href="https://freeicons.io">freeicons.io</a></string>
+    <string name="author3">Icon by <a href="https://freeicons.io/profile/823">Muhammad Haq</a> on <a href="https://freeicons.io">freeicons.io</a></string>
+    <string name="author4">Icon by <a href="https://freeicons.io/profile/3">freeicons</a> on <a href="https://freeicons.io">freeicons.io</a></string>
+    <string name="author5">Icon by <a href="https://freeicons.io/profile/5790">106171237606937156455</a> on <a href="https://freeicons.io">freeicons.io</a></string>
+    <string name="author6">Icon by <a href="https://freeicons.io/profile/2257">uicon</a> on <a href="https://freeicons.io">freeicons.io</a></string>
+    <string name="action_settings">Settings</string>
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <string name="level_text">Level %1$d</string>
+    <!-- -
+    This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+    For more information, see https://support.google.com/admob/answer/3052638
+<!- -->
+    <string name="interstitial_ad_unit_id">YOUR_INTERSTITIAL_AD_UNIT_ID</string>
+</resources>

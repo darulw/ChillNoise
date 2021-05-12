@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#00171717"
+    app:cardElevation="0dp"
+    android:foreground="@drawable/custom_clik"
+    android:clickable="true">
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/item_image"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/coffee"/>
+</androidx.cardview.widget.CardView>
